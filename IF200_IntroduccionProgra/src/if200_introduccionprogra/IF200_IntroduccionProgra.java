@@ -22,7 +22,7 @@ public class IF200_IntroduccionProgra {
     /* Tipos de datos numéricos:
     int, long,short, float, double,numeric
     money, decimal
-    
+                                                                           
     
     Manejo de fechas: 
     Date 
@@ -41,5 +41,7 @@ public class IF200_IntroduccionProgra {
     System.out.println("Name:" + name);
     System.out.println("Age:" + age);
     
+    
+  
 }
 }
