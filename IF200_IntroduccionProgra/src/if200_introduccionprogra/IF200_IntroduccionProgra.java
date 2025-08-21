@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package if200_introduccionprogra;
-
+import logic.*;
 /**
  *
  * @author Dell
@@ -17,8 +17,8 @@ public class IF200_IntroduccionProgra {
         // TODO code application logic here
     
     
-    String name = "Lionel";
-    int age = 40;
+    //String name = "Lionel";
+   // int age = 40;
     /* Tipos de datos numéricos:
     int, long,short, float, double,numeric
     money, decimal
@@ -37,11 +37,17 @@ public class IF200_IntroduccionProgra {
     Data Structures: Arrays or Vectors: int[] x;
     int [][] y;
     */
-    System.out.println("Hello World");
-    System.out.println("Name:" + name);
-    System.out.println("Age:" + age);
+    //System.out.println("Hello World");
+    //System.out.println("Name:" + name);
+    //System.out.println("Age:" + age);
     
+    Ejercicios_Semana2_PracticaEnClase ej;
+    ej= new Ejercicios_Semana2_PracticaEnClase();
+    //ej.quiz2_B_piramide(5);
+    ej.ejercicioA(5);
     
-  
+ 
+
+    
 }
 }
