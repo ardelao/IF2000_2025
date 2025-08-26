@@ -42,9 +42,14 @@ public class IF200_IntroduccionProgra {
     //System.out.println("Age:" + age);
     
     Ejercicios_Semana2_PracticaEnClase ej;
-    ej= new Ejercicios_Semana2_PracticaEnClase();
+    ej= new Ejercicios_Semana2_PracticaEnClase();//instancia del metodo hecho en ejercicios semana2 practica en clase                                                                                                                                                                                                                       
     //ej.quiz2_B_piramide(5);
-    ej.ejercicioA(5);
+    //ej.ejercicioA(5);
+    //ej.ejercicioA(5);
+    //ej.ejercicioB(5);
+    //ej.ejercicioC(5);
+    //ej.ejercicioD(1);
+    ej.ejercicioE(1);
     
  
 
