@@ -159,7 +159,42 @@ public void ejercicioE(int n){
             System.out.print(numeros[i] + " ");
         }
     }
+public void quizTres(int n){
+    
+        int f = 5; //para el alto
+        int c = 9; // para el ancho
+
+        for (int i = 1; i <= f; i++) {             // va a ir de 1 hasta 5 porque hay 5 filas
+            for (int j = 1; j <= c; j++) {         // va a ir de 1 hasta 9 porque hay 9 columnas
+                // Primera o última fila
+                if (i == 1 || i == f) {           // si es igual a 1, ya sea columna 1 o fila 1
+                                                 //va a imprimir asteriscos, estas van a ser las bases del cuadrado
+                    System.out.print("*");
+                }
+                // Primera o última columna
+                else if (j == 1 || j == c) { // esto va a imprimir los costados, si estamos en la
+                                            //o columna derecha (j==9)  columna izquierda (j==1) va a imprimir asteriscos 
+                    System.out.print("*");
+                }
+                // Centro (fila 3, columna 5)
+                else if (i == 3 && j == 5) {    //si estamos en la fila central (i==3) y columna central (j==5), va a 
+                                                   // imprimir un asterisco 
+                    System.out.print("*");
+                }
+                // para los espacios en blanco solo utilizo un else 
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
 }
+
+    
+    
+
+
 
     
     

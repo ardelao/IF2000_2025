@@ -2,6 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
+
 package if200_introduccionprogra;
 import logic.*;
 /**
@@ -49,7 +50,8 @@ public class IF200_IntroduccionProgra {
     //ej.ejercicioB(5);
     //ej.ejercicioC(5);
     //ej.ejercicioD(1);
-    ej.ejercicioE(1);
+    //ej.ejercicioE(1);
+    //ej.quizTres(5);
     
  
 
