@@ -14,25 +14,35 @@ public class Laboratorio_1 {
 
     }
 
-    public String ejercicio_1() {
+    public void ejercicio_1() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese un número entero: ");
         int num = scanner.nextInt();
-        return (num % 2 == 0) ? "El número es par" : "El número es impar";
-    }
-    public int ejercicio_2() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Ingrese un número entero: ");
-        int num = scanner.nextInt();
-        return (num < 0) ? num * -1 : num;
-    }
-    public int ejercicio_3() {
-        int resultado = 0;
-        for (int i = 3; i <= 99; i += 3) {
-            resultado += i;
+        if (num % 2 == 0) {
+            System.out.println("El número es par");
+        } else {
+            System.out.println("El número es impar");
         }
-        return resultado;
     }
+    public void ejercicio_2() {
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Ingrese un número entero: ");
+    int num = scanner.nextInt();
+    int absoluto = (num < 0) ? num * -1 : num;
+    System.out.println("El valor absoluto es: " + absoluto);
+}
+    public  void ejercicio_3() {
+        int suma = 0;
+
+        System.out.println("La serie es:");
+        for (int i = 3; i <= 99; i += 3) {
+            System.out.print(i + " ");
+            suma += i; // acumula la suma
+        }
+
+        System.out.println("\nLa suma de la serie es: " + suma);
+    }
+
 
     public void ejercicio_4() {
         Scanner scanner = new Scanner(System.in);

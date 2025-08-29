@@ -56,18 +56,19 @@ public class IF200_IntroduccionProgra {
     Laboratorio_1 b1;
     
     b1= new Laboratorio_1();
-    b1.ejercicio_1();
-    b1.ejercicio_2();
-    b1.ejercicio_3();
-    b1.ejercicio_4();
-    b1.ejercicio_5();
-    b1.ejercicio_6();
-    b1.ejercicio_7();
-    b1.ejercicio_8();
-    b1.ejercicio_9();
-    b1.ejercicio_10();
-    b1.ejercicio_11();
-    b1.ejercicio_12();
+    //QUITAR BARRA DOBLE AL EJERCICIO QUE DESEA EJECUTAR 
+    //b1.ejercicio_1();
+   // b1.ejercicio_2();
+    //b1.ejercicio_3();
+    //b1.ejercicio_4();
+    //b1.ejercicio_5();
+    //b1.ejercicio_6();
+    //b1.ejercicio_7();
+    //b1.ejercicio_8();
+   //b1.ejercicio_9();
+    //b1.ejercicio_10();
+    //b1.ejercicio_11();
+    //b1.ejercicio_12();
  
 
     
