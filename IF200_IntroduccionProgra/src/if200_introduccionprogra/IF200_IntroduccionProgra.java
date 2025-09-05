@@ -70,7 +70,24 @@ public class IF200_IntroduccionProgra {
     //b1.ejercicio_11();
     //b1.ejercicio_12();
  
-
+Laboratorio_2 c1;
     
+    c1= new Laboratorio_2(); //quitar el doble / PARA EJECUTAR 
+    //c1.ejercicio13();
+    //c1.ejercicio14();
+    //c1.ejercicio15();
+    //c1.ejercicio16();
+    //c1.ejercicio17();
+    //c1.ejercicio18();
+    //c1.ejercicio19();
+    c1.ejercicio20();
+    //c1.ejercicio21();
+    //c1.ejercicio22();
+    //c1.ejercicio23();
+    //c1.ejercicio24();
+    //c1.ejercicio25();
+    //c1.ejercicio26();
+    //c1.ejercicio27();
 }
+   
 }
