@@ -1,4 +1,4 @@
-/*
+                                                                    /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -76,7 +76,7 @@ package domain;
         return intereses;
     }
     
-    // Método para agregar intereses al saldo (iii)
+    // Método para agregar intereses al saldo 
     public double agregarInteresesSaldo(double saldoActual, double intereses) {
         return saldoActual + intereses;
     }
