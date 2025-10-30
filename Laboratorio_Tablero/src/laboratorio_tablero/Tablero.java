@@ -54,16 +54,16 @@ class Tablero {
         }
     }
 
-    // Valida un movimiento según reglas del juego
+    // bloque para validar un movimiento según reglas del juego
     public boolean MovimientoValido(int filaO, int colO, int filaD, int colD, String turno) {
-        // 1. Coordenadas dentro del tablero
+        // coordenadas
         if (filaO < 0 || filaO > 7 || colO < 0 || colO > 7 ||
             filaD < 0 || filaD > 7 || colD < 0 || colD > 7) {
             System.out.println("Coordenadas fuera del tablero.");
             return false;
         }
 
-        // 2. Que haya ficha en origen
+        // bloque para comprobar que hay ficha 
         if (casillas[filaO][colO] == null) {
             System.out.println("No hay ficha en esa posición.");
             return false;
@@ -75,13 +75,13 @@ class Tablero {
             return false;
         }
 
-        // 4. Movimiento diagonal de una casilla
+        //  Bloque para mover diagonalmente la ficha 
         if (Math.abs(filaD - filaO) != 1 || Math.abs(colD - colO) != 1) {
             System.out.println("La casilla seleccionada no está en diagonal.");
             return false;
         }
 
-        // 5. Color de la ficha coincide con el turno
+       
         if (!casillas[filaO][colO].getColor().equals(turno)) {
             System.out.println("No es tu turno para mover esa ficha.");
             return false;
